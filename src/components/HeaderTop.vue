@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-
+      socialIcons: [`fa-facebook-f`, `fa-twitter`, `fa-instagram`, `fa-youtube`]
     }
   }
 }
@@ -18,17 +18,10 @@ export default {
       </div>
       <div class="col">
         <ul>
-          <li>
-            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <li v-for="icon in socialIcons">
+            <a href="">
+              <i :class="`fa-brands ${icon}`"></i>
+            </a>
           </li>
         </ul>
       </div>
