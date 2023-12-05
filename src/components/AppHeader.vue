@@ -83,6 +83,7 @@ export default {
             border-radius: 2rem;
             margin-left: 1.2rem;
             font-size: .9rem;
+            display: inline-block;
 
             &:hover {
               background-color: lighten(($btn-bg),  15%);
