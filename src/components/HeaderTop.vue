@@ -38,7 +38,8 @@ export default {
   color: white;
 
   .container {
-    max-width: 70%;
+    width: 70%;
+    max-width: 1100px;
     margin: 0 auto;
     height: 50px;
 

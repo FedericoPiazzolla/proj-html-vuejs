@@ -40,7 +40,8 @@ export default {
     align-items: center;
 
     .col {
-      width: 60%;
+      width: 70%;
+      max-width: 1100px;
       text-align: center;
 
       h2 {

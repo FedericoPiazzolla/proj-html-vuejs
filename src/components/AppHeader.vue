@@ -54,7 +54,8 @@ export default {
 .header-bottom {
   display: flex;
   justify-content: space-between;
-  max-width: 70%;
+  width: 70%;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 1rem 0;
   height: 90px;
