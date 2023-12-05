@@ -59,7 +59,6 @@ export default {
             padding-left: 1rem;
             a{
               color: inherit;
-
             }
           }
         }
