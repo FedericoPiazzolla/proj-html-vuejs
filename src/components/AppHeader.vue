@@ -1,4 +1,5 @@
 <script>
+import HeaderJumbotron from './HeaderJumbotron.vue';
 import HeaderTop from './HeaderTop.vue';
 
 export default {
@@ -15,7 +16,7 @@ export default {
           ],
         };
     },
-    components: { HeaderTop },
+    components: { HeaderTop, HeaderJumbotron },
     methods: {
       getImageUrl(imgName) {
         return new URL(`../assets/img/${imgName}`, import.meta.url).href;
@@ -42,6 +43,7 @@ export default {
         </nav>
       </div>
       
+      <HeaderJumbotron />
     </div>
   </header>
   
