@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      socialIcons: [`fa-facebook-f`, `fa-twitter`, `fa-instagram`, `fa-youtube`]
+      socialIcons: [`fa-facebook-f`, `fa-x-twitter`, `fa-instagram`, `fa-youtube`]
     }
   }
 }
