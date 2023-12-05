@@ -72,7 +72,7 @@ export default {
         padding-left: 1.4rem;
 
         a {
-          color: inherit;
+          color: $primary-text;
           text-decoration: none;
           font-weight: bolder;
 
@@ -82,6 +82,7 @@ export default {
             padding: .8rem 1.2rem;
             border-radius: 2rem;
             margin-left: 1.2rem;
+            font-size: .9rem;
 
             &:hover {
               background-color: lighten(($btn-bg),  15%);

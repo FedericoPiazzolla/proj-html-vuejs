@@ -38,6 +38,7 @@ export default {
     h1{
       padding: 1.2rem 0;
       font-size: 2.8rem;
+      color: $primary-text;
     }
 
     p {
