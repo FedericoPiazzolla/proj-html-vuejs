@@ -63,6 +63,10 @@ export default {
         background-color: $btn-bg;
         padding: .8rem 3rem;
         border-radius: 2rem;
+
+        &:hover {
+          background-color: lighten(($btn-bg),  15%);
+        }
       }
     }
   }
