@@ -99,6 +99,10 @@ footer {
             padding-left: 1rem;
             a {
               color: inherit;
+
+              &:hover {
+                color: $primary-text;
+              }
             }
           }
         }
