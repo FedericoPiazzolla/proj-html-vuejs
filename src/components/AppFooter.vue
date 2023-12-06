@@ -82,6 +82,7 @@ footer {
 
       .col {
         p {
+          text-align: center;
           font-size: 0.8rem;
         }
       }
