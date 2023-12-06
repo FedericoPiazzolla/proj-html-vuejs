@@ -13,7 +13,7 @@ export default {
       LeftCol: {
         title: "ABOUT",
         content:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro alias in, perspiciatis reprehenderit cupiditate, ut exercitationem reiciendis eos, nostrum distinctio minima deleniti adipisci quo eligendi id quis obcaecati expedita itaque.",
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro alias in, perspiciatis reprehenderit cupiditate, ut exercitationem reiciendis eos, nostrum distinctio minima deleniti adipisci quo.",
         imgPath: "avada-movers-logo.png",
       },
       centralCol: {

@@ -58,7 +58,7 @@ footer {
 
   .row {
     display: flex;
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: white;
 
     .col {
@@ -66,7 +66,37 @@ footer {
       padding: 1rem;
 
       h3 {
+        color: $primary-text;
+        padding-bottom: 1.5rem;
+      }
 
+      p {
+        color: $secondary-text;
+        line-height: 1.5rem;
+        font-size: .9rem;
+      }
+
+      img {
+        padding: 3rem 0;
+      }
+
+      ul {
+        list-style-type: none;
+
+        li {
+          padding-bottom: 1.6rem;
+          color: $secondary-text;
+          font-weight: 500;
+
+          a{
+            color: inherit;
+            text-decoration: none;
+
+            &:hover {
+              color: $lime-text;
+            }
+          }
+        }
       }
     }
   }
