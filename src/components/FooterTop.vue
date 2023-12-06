@@ -65,7 +65,8 @@ footer {
 
   .row {
     display: flex;
-    padding: 1.5rem;
+    width: 80%;
+    padding: 2.5rem 0;
     background-color: white;
 
     .col {
