@@ -33,6 +33,7 @@ export default {
 .wrap {
   background-color: $section-light-bg;
   padding: 6.2rem 0;
+  min-height: 600px;
   .row {
     display: flex;
     flex-direction: column;

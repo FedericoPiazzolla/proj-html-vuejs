@@ -1,13 +1,14 @@
 <script>
 import MainBigBtn from './MainBigBtn.vue';
+import MainMWE from './MainMWE.vue';
 import MainServiceSection from './MainServiceSection.vue';
 import MainTestimonialsSection from './MainTestimonialsSection.vue';
 
 export default {
   data() {
-      return {};
+    return {};
   },
-  components: { MainBigBtn, MainTestimonialsSection, MainServiceSection },
+  components: { MainBigBtn, MainTestimonialsSection, MainServiceSection, MainMWE },
 }
 </script>
 
@@ -15,6 +16,7 @@ export default {
   <MainBigBtn />
   <MainTestimonialsSection />
   <MainServiceSection />
+  <MainMWE />
 </template>
 
 <style lang="scss" scoped>

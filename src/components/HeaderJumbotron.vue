@@ -22,7 +22,7 @@ export default {
 @use "../style/partials/variable" as *;
 .jumbo {
   width: 100%;
-  height: 450px;
+  height: 550px;
   background-image: url(../assets/img/avada-movers-homeherobackground-final.jpg);
   background-position: center;
   background-size: cover;
