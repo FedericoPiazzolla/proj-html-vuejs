@@ -68,7 +68,7 @@ export default {
 
 footer {
   background-color: $header-top-bg;
-  padding: 2rem 0;
+  padding: .5rem 0 2rem;
 
   .container {
     width: 60%;

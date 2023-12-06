@@ -26,7 +26,7 @@ export default {
 @use "../style/partials/variable" as *;
 
 .wrapper {
-  min-height: 400px;
+  min-height: 500px;
   background-image: url("../assets/img/avada-movers-request-quote-background.jpg");
   background-size: cover;
 
@@ -37,7 +37,7 @@ export default {
 
     .text-container {
       text-align: center;
-      padding: 4rem 0;
+      padding: 8rem 0;
 
       h2 {
         color: $lime-text;
